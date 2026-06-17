@@ -1,3 +1,6 @@
+// Browser-focused (DOM) TypeScript configuration for the ts-fundamentals package.
+// No Node.js types are included to avoid polluting the app code with Node.js globals (process, Buffer, etc.).
+// Removed "node" from types so Node globals (process, Buffer, etc.) don't leak into browser code.
 {
   "compilerOptions": {
     "target": "es2023",
@@ -22,5 +25,3 @@
   },
   "include": ["src"]
 }
-
-// Removed "node" from types so Node globals (process, Buffer, etc.) don't leak into browser code.
