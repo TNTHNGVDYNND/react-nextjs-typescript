@@ -7,7 +7,7 @@
 // =====================
 
 // ----- 1. Typed arrays (number[] and string[]) -----
-let prices: number[] = [175, 42];
+let prices: number[] = [100, 175, 42];
 prices.push(34); // valid — 34 is a number
 console.log('Prices:', prices);
 
