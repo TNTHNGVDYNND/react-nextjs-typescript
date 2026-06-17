@@ -1,3 +1,4 @@
+// Isolate Vite config from the main tsconfig to avoid polluting the app code with Node.js types.
 {
   "compilerOptions": {
     "target": "es2023",
